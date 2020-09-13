@@ -6,6 +6,7 @@ steps:
     image: golang
     commands:
       - go test
-      - go build
+      - pwd
+      - echo "lalala"
     when:
       branch: [master]
